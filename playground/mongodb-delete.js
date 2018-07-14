@@ -21,9 +21,9 @@ MongoClient.connect(
     // });
 
     // findOneAndDelete
-    db.collection('Todos').findOneAndDelete({b: '5'}).then((result) => {
-      console.log(result);
-    });
+    // db.collection('Todos').findOneAndDelete({b: '5'}).then((result) => {
+    //   console.log(result);
+    // });
 
     client.close();
 });
